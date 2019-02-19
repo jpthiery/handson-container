@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald');
+
+.gatsby-highlight-code-line {
+  background-color: #a53333;
+  display: block;
+  margin-right: 0em;
+  margin-left: -1em;
+  padding-right: -1em;
+  padding-left: -1em;
+  border-left: 0.25em solid #f99;
+}
+
+.gatsby-highlight {
+  border-radius: 0.3em;
+  margin: 0.5em 0;
+  /*padding: 1em;*/
+  overflow: auto;
+}
+
+.gatsby-highlight pre[class*="language-"].line-numbers {
+  padding: 0;
+  padding-left: 2.8em;
+  overflow: initial;
+}
+
+html {
+  /* font-family: sans-serif; */
+  font-family: 'Lato', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Oswald', sans-serif;
+}
