@@ -37,7 +37,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               {
                 name: `twitter:card`,
                 content: `summary`,
-              },              
+              },
               {
                 name: `twitter:title`,
                 content: title,
@@ -54,7 +54,8 @@ function SEO({ description, lang, meta, keywords, title }) {
                       content: keywords.join(`, `),
                     }
                   : []
-              ).concat(
+              )
+              .concat(
                 data.site.siteMetadata.authors.length > 0
                   ? {
                       name: `twitter:creators`,
