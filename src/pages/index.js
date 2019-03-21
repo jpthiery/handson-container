@@ -2,18 +2,26 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/layout'
-import Image from '../components/image'
 import SEO from '../components/seo'
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
+    <SEO title="Home" keywords={[`docker`, `handson`, `initiation`]} />
+    <h1>Hand's on d'intitiation a Docker</h1>
+    <p>
+      Vos collegues parlent de conteneur, de docker. Sont-ils entrain de se reorienter dans la filliere de la marine marchande ? <br/>
+      Premiere chose: vous n'etes pas fou.
+    </p>
+    <h3>A qui s'adresse ce handson ?</h3>
+    <p>
+      Ce handson sert a s'initier a Docker par la pratique. Les pre requis sont : 
+      <ul>
+        <li>de savoir ce que c'est que Docker (dans les grandes lignes hein ^^)</li>
+        <li>d'avoir une machine a disposition avec une connection a internet et un client SSH.</li>
+      </ul>
+    </p>
+
+
     <div>
       <h2>Sommaire</h2>
       <ul>

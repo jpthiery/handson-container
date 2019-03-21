@@ -25,11 +25,26 @@
 
 html {
   /* font-family: sans-serif; */
+  /*
   font-family: 'Lato', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  */
+}
+
+footer {
+  margin-top: 2.8em;
+  margin-bottom: 0
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
 }
 
 h1, h2, h3, h4, h5 {
   font-family: 'Oswald', sans-serif;
+}
+p, ul, li, footer {
+  font-family: 'Lato', sans-serif;
 }
